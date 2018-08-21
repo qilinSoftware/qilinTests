@@ -1,5 +1,5 @@
 _include("java:com.qilin.QilinSample"); // Inclusion du module 
-http://localhost/qilinSample/index.html");
+_navigateTo("http://localhost/qilinSample/index.html");
 _qilinStampWindow();
 _click(_link("Jacques Daniel Chef Projet 3"));
 _qilinWait(4336)
