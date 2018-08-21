@@ -1,7 +1,25 @@
 _include("java:com.qilin.QilinSample"); // Inclusion du module 
-http://192.168.88.1/qilinSample/index.html");
 http://localhost/qilinSample/index.html");
-
+_qilinStampWindow();
+_click(_link("Jacques Daniel Chef Projet 3"));
+_qilinWait(4336)
+_qilinStampWindow();
+_click(_link("Membres de l'équipe 3"));
+_qilinStampWindow();
+_qilinTouchSlide(_link("Jean Overseas Architecte Logiciel 0"),138,289,125,276);
+_click(_link("Jean Overseas Architecte Logiciel 0"));
+_qilinWait(6644)
+_click(_link("Modifier"));
+_qilinWait(4675)
+_qilinStampWindow();
+_setValue(_datebox("inBirthday"), "1987-12-12");
+_qilinWait(629)
+_click(_link("Valider"));
+_qilinWait(3084)
+_qilinStampWindow();
+_click(_link("Accueil"));
+_qilinWait(3134)
+_qilinStampWindow();
 
 
 
