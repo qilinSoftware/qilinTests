@@ -18,7 +18,7 @@ _click(_link("Valider"));
 _qilinWait(3084)
 _qilinStampWindow();
 _click(_link("Accueil"));
-_qilinWait(3134)
+//_qilinWait(3134)
 _qilinStampWindow();
 
 
