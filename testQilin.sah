@@ -5,7 +5,7 @@ _click(_link("Jacques Daniel Chef Projet 3"));
 _qilinWait(4336)
 _qilinStampWindow();
 _click(_link("Membres de l'équipe 3"));
-//_qilinStampWindow();
+_qilinStampWindow();
 _qilinTouchSlide(_link("Jean Overseas Architecte Logiciel 0"),138,289,125,276);
 _click(_link("Jean Overseas Architecte Logiciel 0"));
 _qilinWait(6644)
